@@ -1,0 +1,9 @@
+services:
+  budget-dashboard:
+    build: .
+    container_name: budget-dashboard
+    ports:
+      - "43590:3000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
