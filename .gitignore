@@ -1,0 +1,16 @@
+# Dependencias
+node_modules/
+
+# Base de datos local (¡tus datos y contraseñas! NO subir)
+data/
+
+# Logs y temporales
+npm-debug.log*
+*.log
+
+# Diagramas / archivos personales
+*.excalidraw
+
+# Sistema
+.DS_Store
+Thumbs.db
